@@ -1,4 +1,7 @@
-![logo](extra/img/floodfiled_studio.jpg)
+<p align="center">
+  <img src="extra/img/floodfiled_studio-sans_fond.jpg" width="350">
+</p>
+
 # Qui nous sommes :
 
 
