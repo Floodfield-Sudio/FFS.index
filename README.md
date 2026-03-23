@@ -6,13 +6,11 @@
 [Insérez votre description ici]
 
 ## Nos Réseaux :
-<table>
-  <tr>
-    <td><a href="https://discord.gg"><img src="https://img.shields.io"></a></td>
-    <td><a href="https://youtube.com"><img src="https://img.shields.io"></a></td>
-    <td><a href="https://github.com"><img src="https://img.shields.io"></a></td>
-  </tr>
-</table>
+<p align="left">
+  <a href="https://discord.gg/FcxvfGGKtt"><img src="https://img.shields.io/badge/Floodfield%20Studios-%235865F2?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://youtube.com/@floodfield_studios"><img src="https://img.shields.io/badge/Floodfield%20Studios-red?style=flat&logo=youtube" alt="YouTube"></a>
+  <a href="https://github.com/Floodfield-Sudio/"><img src="https://img.shields.io/badge/Floodfield%20Studios-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
 
 ## Nos Projets :
 Voici ce que nous avons fait :
