@@ -1,5 +1,5 @@
 ## Nos Réseaux :
-- [![Discord](https://img.shields.io/discord/1329044327149731851)](https://discord.gg/FcxvfGGKtt)
+- [![Discord](https://img.shields.io/discord/1329044327149731851?color=5865F2&label=Discord&style=flat" alt="Discord)](https://discord.gg/FcxvfGGKtt)
 - [YouTube](https://www.youtube.com/@floodfield_studios)
 - [GitHub](https://github.com/Floodfield-Sudio/)
 
