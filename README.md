@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="extra/img/floodfiled_studio-sans_fond.jpg" width="350">
+  <img src="assets/img/floodfiled_studio-sans_fond.jpg" width="350">
 </p>
 
 # Qui nous sommes :
