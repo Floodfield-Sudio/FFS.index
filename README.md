@@ -2,8 +2,8 @@
   <img src="assets/img/floodfiled_studio-sans_fond.jpg" width="350" style="background-color:transparent;">
 </p>
 
-# Qui nous sommes :
-[Insérez votre description ici]
+# Qui sommes-nous :
+Floodfield-Studio est une organisation de deux personnes cherchant à partager des outils,...
 
 ## Nos Réseaux :
 <p align="left">
