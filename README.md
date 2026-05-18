@@ -19,7 +19,6 @@ Floodfield-Studio est une organisation de deux personnes cherchant à partager d
 - [Mod MC Admin Tool](https://floodfield-sudio.github.io/Admin-Tool/), *stable 1.0.1 public*
 - War Conflict, *in-dev 0.0.6 alpha privé*
 
-<!--
 ### Les autre Projets de notre équipe :
-- [Computer Emulator](https://github.com/celestinalmeras/Computer-Emulator), *in-dev 1.0.1 public* 
--->
+- [Computer Emulator](https://github.com/celestinalmeras/Computer-Emulator), *in-dev 1.0.1 public*
+- 
