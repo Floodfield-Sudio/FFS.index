@@ -1,232 +1,231 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Floodfield Studios - Home</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<style>
-        :root {
-            --bg-color: #0d1117;
-            --card-bg: #161b22;
-            --text-primary: #c9d1d9;
-            --text-secondary: #8b949e;
-            --accent: #58a6ff;
-            --border: #30363d;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-        }
-
-        .glass-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            transition: transform 0.2s ease, border-color 0.2s ease;
-        }
-
-        .glass-card:hover {
-            border-color: var(--accent);
-            transform: translateY(-2px);
-        }
-
-        .project-link {
-            color: var(--accent);
-            text-decoration: none;
-        }
-
-        .project-link:hover {
-            text-decoration: underline;
-        }
-
-        .badge-container img {
-            display: inline-block;
-            transition: opacity 0.2s;
-        }
-
-        .badge-container img:hover {
-            opacity: 0.8;
-        }
-    
-        .lang-btn {
-            border: 1px solid var(--border);
-            background: var(--card-bg);
-            color: var(--text-primary);
-            border-radius: 9999px;
-            padding: 0.45rem 0.8rem;
-            font-size: 0.875rem;
-            transition: all 0.2s ease;
-            cursor: pointer;
-        }
-        .lang-btn.active {
-            border-color: var(--accent);
-            color: white;
-            box-shadow: 0 0 0 1px rgba(88,166,255,0.18) inset;
-        }
-
-    </style>
-</head>
-<body class="min-h-screen flex flex-col items-center p-6 md:p-12">
-<div class="w-full max-w-3xl flex justify-end mb-8">
-<div class="flex gap-2">
-<button class="lang-btn" id="btn-en" type="button">EN</button>
-<button class="lang-btn" id="btn-fr" type="button">FR</button>
-</div>
-</div>
-<!-- Header / Logo -->
-<header class="w-full max-w-3xl flex flex-col items-center mb-12">
-<div class="mb-8">
-<img alt="Floodfield Studio Logo" class="w-64 md:w-80 h-auto rounded-lg" onerror="this.src='https://via.placeholder.com/350x200/161b22/c9d1d9?text=Floodfield+Studios'" src="assets/img/floodfiled_studio-sans_fond.jpg"/>
-</div>
-<h1 class="text-4xl font-bold text-white mb-2 text-center">Floodfield Studios</h1>
-<div class="h-1 w-20 bg-blue-500 rounded-full"></div>
-</header>
-<!-- Main Content -->
-<main class="w-full max-w-3xl space-y-10">
- Section: Who we are 
-<section class="glass-card p-8">
-<h2 class="text-2xl font-semibold text-white mb-4 flex items-center">
-<span class="mr-2">👤</span> Who we are
-            </h2>
-<p class="text-gray-400">
-                Welcome to Floodfield Studios. We are a collective of passionate individuals dedicated to developing innovative tools, mods, and games. Our mission is to create unique digital experiences while providing practical tools for the community.
-            </p>
-</section>
-<!-- Section: Réseaux Sociaux -->
-<section class="glass-card p-8">
-<h2 class="text-2xl font-semibold text-white mb-4 flex items-center">
-<span class="mr-2">🌐</span> Our Socials
-            </h2>
-<div class="flex flex-wrap gap-3 badge-container">
-<a href="https://discord.gg/FcxvfGGKtt" target="_blank">
-<img alt="Discord" src="https://img.shields.io/badge/Floodfield%20Studios-%235865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white"/>
-</a>
-<a href="https://youtube.com/@floodfield_studios" target="_blank">
-<img alt="YouTube" src="https://img.shields.io/badge/Floodfield%20Studios-red?style=for-the-badge&amp;logo=youtube"/>
-</a>
-<a href="https://github.com/Floodfield-Sudio/" target="_blank">
-<img alt="GitHub" src="https://img.shields.io/badge/Floodfield%20Studios-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"/>
-</a>
-</div>
-</section>
-<!-- Section: Projets -->
-<section class="glass-card p-8">
-<h2 class="text-2xl font-semibold text-white mb-6 flex items-center">
-<span class="mr-2">🚀</span> Our Projects
-            </h2>
-<div class="space-y-6">
-<h3 class="text-2xl font-semibold text-white mb-6 flex items-center">
-                    Here is what we have made:
-                </h3>
-<div>
-<!-- Projet 1 -->
-<div class="border-l-4 border-blue-500 pl-4 py-1">
-<h4 class="text-xl font-medium">
-<a class="project-link" href="https://floodfield-sudio.github.io/Dev-Studio/">App Dev Studio</a>
-</h4>
-<p class="text-sm text-gray-500 italic mt-1">Status: in-dev 0.1.3 public beta</p>
-</div>
-<!-- Projet 2 -->
-<div class="border-l-4 border-green-500 pl-4 py-1">
-<h4 class="text-xl font-medium">
-<a class="project-link" href="https://floodfield-sudio.github.io/Admin-Tool/">Mod MC Admin Tool</a>
-</h4>
-<p class="text-sm text-gray-500 italic mt-1">Status: stable 1.0.1 public</p>
-</div>
-<!-- Projet 3 -->
-<div class="border-l-4 border-yellow-600 pl-4 py-1">
-<h4 class="text-xl font-medium text-gray-300">
-                            War Conflict
+	<head>
+		<meta charset="utf-8"/>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+		<title>Floodfield Studios - Home</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<style>
+			:root {
+		            --bg-color: #0d1117;
+		            --card-bg: #161b22;
+		            --text-primary: #c9d1d9;
+		            --text-secondary: #8b949e;
+		            --accent: #58a6ff;
+		            --border: #30363d;
+		        }
+		
+		        body {
+		            background-color: var(--bg-color);
+		            color: var(--text-primary);
+		            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+		            line-height: 1.6;
+		        }
+		
+		        .glass-card {
+		            background: var(--card-bg);
+		            border: 1px solid var(--border);
+		            border-radius: 12px;
+		            transition: transform 0.2s ease, border-color 0.2s ease;
+		        }
+		
+		        .glass-card:hover {
+		            border-color: var(--accent);
+		            transform: translateY(-2px);
+		        }
+		
+		        .project-link {
+		            color: var(--accent);
+		            text-decoration: none;
+		        }
+		
+		        .project-link:hover {
+		            text-decoration: underline;
+		        }
+		
+		        .badge-container img {
+		            display: inline-block;
+		            transition: opacity 0.2s;
+		        }
+		
+		        .badge-container img:hover {
+		            opacity: 0.8;
+		        }
+		    
+		        .lang-btn {
+		            border: 1px solid var(--border);
+		            background: var(--card-bg);
+		            color: var(--text-primary);
+		            border-radius: 9999px;
+		            padding: 0.45rem 0.8rem;
+		            font-size: 0.875rem;
+		            transition: all 0.2s ease;
+		            cursor: pointer;
+		        }
+		        .lang-btn.active {
+		            border-color: var(--accent);
+		            color: white;
+		            box-shadow: 0 0 0 1px rgba(88,166,255,0.18) inset;
+		        }
+		
+		</style>
+	</head>
+	<body class="min-h-screen flex flex-col items-center p-6 md:p-12">
+		<div class="w-full max-w-3xl flex justify-end mb-8">
+			<div class="flex gap-2">
+				<button class="lang-btn" id="btn-en" type="button">EN</button>
+				<button class="lang-btn" id="btn-fr" type="button">FR</button>
+			</div>
+		</div>
+		<!-- Header / Logo -->
+		<header class="w-full max-w-3xl flex flex-col items-center mb-12">
+			<div class="mb-8">
+				<img alt="Floodfield Studio Logo" class="w-64 md:w-80 h-auto rounded-lg" onerror="this.src='https://via.placeholder.com/350x200/161b22/c9d1d9?text=Floodfield+Studios'" src="assets/img/floodfiled_studio-sans_fond.jpg"/>
+			</div>
+			<h1 class="text-4xl font-bold text-white mb-2 text-center">Floodfield Studios</h1>
+			<div class="h-1 w-20 bg-blue-500 rounded-full"></div>
+		</header>
+		<!-- Main Content -->
+		<main class="w-full max-w-3xl space-y-10">
+			 Section: Who we are 
+			<section class="glass-card p-8">
+				<h2 class="text-2xl font-semibold text-white mb-4 flex items-center">
+					<span class="mr-2">👤</span> Who we are
+			    </h2> 
+				<p class="text-gray-400">
+			    	Floodfield-Studio is a two-person organization seeking to share tools,...
+			    </p>
+			</section>
+			<!-- Section: Réseaux Sociaux -->
+			<section class="glass-card p-8">
+				<h2 class="text-2xl font-semibold text-white mb-4 flex items-center">
+					<span class="mr-2">🌐</span> Our Socials
+				</h2>
+				<div class="flex flex-wrap gap-3 badge-container">
+					<a href="https://discord.gg/FcxvfGGKtt" target="_blank">
+						<img alt="Discord" src="https://img.shields.io/badge/Floodfield%20Studios-%235865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white"/>
+					</a>
+					<a href="https://youtube.com/@floodfield_studios" target="_blank">
+						<img alt="YouTube" src="https://img.shields.io/badge/Floodfield%20Studios-red?style=for-the-badge&amp;logo=youtube"/>
+					</a>
+					<a href="https://github.com/Floodfield-Sudio/" target="_blank">
+						<img alt="GitHub" src="https://img.shields.io/badge/Floodfield%20Studios-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"/>
+					</a>
+				</div>
+			</section>
+			<!-- Section: Projets -->
+			<section class="glass-card p-8">
+				<h2 class="text-2xl font-semibold text-white mb-6 flex items-center">
+					<span class="mr-2">🚀</span> Our Projects
+			    </h2>
+			<div class="space-y-6">
+				<h3 class="text-2xl font-semibold text-white mb-6 flex items-center">
+			        Here is what we have made:
+			    </h3>
+				<div>
+					<!-- Projet 1 -->
+					<div class="border-l-4 border-blue-500 pl-4 py-1">
+						<h4 class="text-xl font-medium">
+							<a class="project-link" href="https://floodfield-sudio.github.io/Dev-Studio/">App Dev Studio</a>
 						</h4>
-<p class="text-sm text-gray-500 italic mt-1">Status: in-dev 0.0.6 private alpha</p>
-</div>
-</div>
-<h3 class="text-2xl font-semibold text-white mb-6 flex items-center">
-                    Other projects from our team:
-                </h3>
-<div>
-<!-- Projet 4 -->
-<div class="border-l-4 border-red-500 pl-4 py-1">
-<h4 class="text-xl font-medium">
-<a class="project-link" href="https://github.com/celestinalmeras/Computer-Emulator">Computer Emulator</a>
-</h4>
-<p class="text-sm text-gray-500 italic mt-1">Status: in-dev 1.0.1 public</p>
-</div>
-                --&gt;
-                </div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="mt-16 pb-8 text-center text-gray-600 text-sm">
-<p>© 2022 Floodfield Studios. All rights reserved.</p>
-</footer>
-<script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const pairs = [["Welcome to Floodfield Studios. We are a collective of enthusiasts dedicated to building tools, mods, and innovative games. Our mission is to create unique digital experiences while providing practical tools for the community.", "Welcome to Floodfield Studios. We are a collective of enthusiasts dedicated to building tools, mods, and innovative games. Our mission is to create unique digital experiences while providing practical tools for the community."], ["Les autre Projets de notre équipe :", "Other projects from our team:"], ["Status: in-dev 0.1.3 bêta public", "Status: in-dev 0.1.3 public beta"], ["Status: in-dev 0.0.6 alpha privé", "Status: in-dev 0.0.6 private alpha"], ["Voici ce que nous avons fait :", "Here is what we have made:"], ["Status: stable 1.0.1 public", "Status: stable 1.0.1 public"], ["Status: in-dev 1.0.1 public", "Status: in-dev 1.0.1 public"], ["Tous droits réservés.", "All rights reserved."], ["Retour à l'accueil", "Back to home"], ["Qui nous sommes", "Who we are"], ["Notre Site Web", "Our Website"], ["Nos Réseaux", "Our Socials"], ["Nos Projets", "Our Projects"]];
-        const titleMap = {"en": "Floodfield Studios - Home", "fr": "Floodfield Studios - Accueil"};
-        const storageKey = 'siteLang';
-        let currentLang = 'en';
-
-        function translateText(text, fromLang, toLang) {
-          const sourcePairs = fromLang === 'fr' ? pairs : pairs.map(([fr, en]) => [en, fr]);
-          let out = text;
-          sourcePairs.forEach(([from, to]) => {
-            if (from && to && out.includes(from)) {
-              out = out.split(from).join(to);
-            }
-          });
-          return out;
-        }
-
-        function walkTextNodes(root, fromLang, toLang) {
-          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-            acceptNode(node) {
-              const parent = node.parentElement;
-              if (!parent) return NodeFilter.FILTER_REJECT;
-              if (['SCRIPT', 'STYLE', 'NOSCRIPT'].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
-              return NodeFilter.FILTER_ACCEPT;
-            }
-          });
-          const nodes = [];
-          while (walker.nextNode()) nodes.push(walker.currentNode);
-          nodes.forEach(node => {
-            node.nodeValue = translateText(node.nodeValue, fromLang, toLang);
-          });
-        }
-
-        function setButtons(lang) {
-          const btnFr = document.getElementById('btn-fr');
-          const btnEn = document.getElementById('btn-en');
-          if (btnFr) btnFr.classList.toggle('active', lang === 'fr');
-          if (btnEn) btnEn.classList.toggle('active', lang === 'en');
-        }
-
-        function applyLanguage(lang) {
-          if (lang !== currentLang) {
-            walkTextNodes(document.body, currentLang, lang);
-            currentLang = lang;
-          }
-          document.documentElement.lang = lang;
-          if (titleMap[lang]) document.title = titleMap[lang];
-          localStorage.setItem(storageKey, lang);
-          setButtons(lang);
-        }
-
-        const saved = localStorage.getItem(storageKey);
-        const defaultLang = 'en';
-        applyLanguage(saved || defaultLang);
-
-        const btnFr = document.getElementById('btn-fr');
-        const btnEn = document.getElementById('btn-en');
-        if (btnFr) btnFr.addEventListener('click', () => applyLanguage('fr'));
-        if (btnEn) btnEn.addEventListener('click', () => applyLanguage('en'));
-      });
-    </script>
-</body>
+						<p class="text-sm text-gray-500 italic mt-1">Status: in-dev 0.1.3 public beta</p>
+					</div>
+					<!-- Projet 2 -->
+					<div class="border-l-4 border-green-500 pl-4 py-1">
+						<h4 class="text-xl font-medium">
+							<a class="project-link" href="https://floodfield-sudio.github.io/Admin-Tool/">Mod MC Admin Tool</a>
+						</h4>
+						<p class="text-sm text-gray-500 italic mt-1">Status: stable 1.0.1 public</p>
+					</div>
+					<!-- Projet 3 -->
+						<div class="border-l-4 border-yellow-600 pl-4 py-1">
+							<h4 class="text-xl font-medium text-gray-300">
+		                		War Conflict
+							</h4>
+							<p class="text-sm text-gray-500 italic mt-1">Status: in-dev 0.0.6 private alpha</p>
+						</div>
+				</div>
+				<h3 class="text-2xl font-semibold text-white mb-6 flex items-center">
+			    	Other projects from our team:
+			    </h3>
+				<div>
+					<!-- Projet 4 -->
+					<div class="border-l-4 border-red-500 pl-4 py-1">
+						<h4 class="text-xl font-medium">
+							<a class="project-link" href="https://github.com/celestinalmeras/Computer-Emulator">Computer Emulator</a>
+						</h4>
+						<p class="text-sm text-gray-500 italic mt-1">Status: in-dev 1.0.1 public</p>
+						</div>
+			        </div>
+				</div>
+			</section>
+		</main>
+		<!-- Footer -->
+		<footer class="mt-16 pb-8 text-center text-gray-600 text-sm">
+			<p>© 2022 Floodfield Studios. All rights reserved.</p>
+		</footer>
+		<script>
+		  document.addEventListener('DOMContentLoaded', () => {
+			const pairs = [["Floodfield-Studio is a two-person organization seeking to share tools,...", "Floodfield-Studio est une organisation de deux personnes cherchant à partager des outils,..."], ["Les autre Projets de notre équipe :", "Other projects from our team:"], ["Status: in-dev 0.1.3 bêta public", "Status: in-dev 0.1.3 public beta"], ["Status: in-dev 0.0.6 alpha privé", "Status: in-dev 0.0.6 private alpha"], ["Voici ce que nous avons fait :", "Here is what we have made:"], ["Status: stable 1.0.1 public", "Status: stable 1.0.1 public"], ["Status: in-dev 1.0.1 public", "Status: in-dev 1.0.1 public"], ["Tous droits réservés.", "All rights reserved."], ["Retour à l'accueil", "Back to home"], ["Qui nous sommes", "Who we are"], ["Notre Site Web", "Our Website"], ["Nos Réseaux", "Our Socials"], ["Nos Projets", "Our Projects"]];
+			const titleMap = {"en": "Floodfield Studios - Home", "fr": "Floodfield Studios - Accueil"};
+			const storageKey = 'siteLang';
+			let currentLang = 'en';
+	
+			function translateText(text, fromLang, toLang) {
+			  const sourcePairs = fromLang === 'fr' ? pairs : pairs.map(([fr, en]) => [en, fr]);
+			  let out = text;
+			  sourcePairs.forEach(([from, to]) => {
+				if (from && to && out.includes(from)) {
+				  out = out.split(from).join(to);
+				}
+			  });
+			  return out;
+			}
+	
+			function walkTextNodes(root, fromLang, toLang) {
+			  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+				acceptNode(node) {
+				  const parent = node.parentElement;
+				  if (!parent) return NodeFilter.FILTER_REJECT;
+				  if (['SCRIPT', 'STYLE', 'NOSCRIPT'].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
+				  return NodeFilter.FILTER_ACCEPT;
+				}
+			  });
+			  const nodes = [];
+			  while (walker.nextNode()) nodes.push(walker.currentNode);
+			  nodes.forEach(node => {
+				node.nodeValue = translateText(node.nodeValue, fromLang, toLang);
+			  });
+			}
+	
+			function setButtons(lang) {
+			  const btnFr = document.getElementById('btn-fr');
+			  const btnEn = document.getElementById('btn-en');
+			  if (btnFr) btnFr.classList.toggle('active', lang === 'fr');
+			  if (btnEn) btnEn.classList.toggle('active', lang === 'en');
+			}
+	
+			function applyLanguage(lang) {
+			  if (lang !== currentLang) {
+				walkTextNodes(document.body, currentLang, lang);
+				currentLang = lang;
+			  }
+			  document.documentElement.lang = lang;
+			  if (titleMap[lang]) document.title = titleMap[lang];
+			  localStorage.setItem(storageKey, lang);
+			  setButtons(lang);
+			}
+	
+			const saved = localStorage.getItem(storageKey);
+			const defaultLang = 'en';
+			applyLanguage(saved || defaultLang);
+	
+			const btnFr = document.getElementById('btn-fr');
+			const btnEn = document.getElementById('btn-en');
+			if (btnFr) btnFr.addEventListener('click', () => applyLanguage('fr'));
+			if (btnEn) btnEn.addEventListener('click', () => applyLanguage('en'));
+		  });
+		</script>
+	</body>
 </html>
