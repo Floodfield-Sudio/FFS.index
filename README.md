@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/img/floodfiled_studio-sans_fond.jpg" width="350" style="background-color:transparent;">
+  <img src="assets/img/floodfiled_studio-sans_fond.png" width="350" style="background-color:transparent;">
 </p>
 
 [Notre Page Web](https://floodfield-sudio.github.io/FFS.index/)
