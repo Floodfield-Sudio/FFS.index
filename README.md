@@ -15,7 +15,7 @@ Floodfield-Studio est une organisation de deux personnes cherchant à partager d
 
 ## Nos Projets :
 ### Voici ce que nous avons fait :
-- [App Dev Studio](https://floodfield-sudio.github.io/Dev-Studio/), *in-dev 0.1.3 bêta public*
+- [App Main Studio *ex dev-studio*](https://floodfield-sudio.github.io/Main-Studio/), *in-dev*, [old](https://github.com/Floodfield-Sudio/Main-Studio/tree/old)
 - [Mod MC Admin Tool](https://floodfield-sudio.github.io/Admin-Tool/), *stable 1.0.1 public*
 - [UNIOS](https://floodfield-sudio.github.io/UNIOS/), *in-dev 0.0.1 bêta public*
 - War Conflict, *in-dev 0.0.6 alpha privé*
